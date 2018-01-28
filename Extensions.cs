@@ -29,12 +29,14 @@ namespace SearchAThing.NETCoreEFUtil
                 builder.Entity<IdentityUser<long>>().Property(w => w.PhoneNumberConfirmed).HasColumnName("phone_number_confirmed");
                 builder.Entity<IdentityUser<long>>().Property(w => w.SecurityStamp).HasColumnName("security_stamp");
                 builder.Entity<IdentityUser<long>>().Property(w => w.TwoFactorEnabled).HasColumnName("twofactor_enabled");
+                builder.Entity<IdentityUser<long>>().Property(w => w.UserName).HasColumnName("username");
+                builder.Entity<IdentityUser<long>>().Property(w => w.ConcurrencyStamp).HasColumnName("concurrency_stamp");                
             }
 
             {
                 builder.Entity<IdentityRole<long>>().ToTable("role");
                 builder.Entity<IdentityRole<long>>().Property(w => w.Id).HasColumnName("id");
-                builder.Entity<IdentityRole<long>>().Property(w => w.ConcurrencyStamp).HasColumnName("concurrency_stamp");
+                builder.Entity<IdentityRole<long>>().Property(w => w.ConcurrencyStamp).HasColumnName("concurrency_stamp");                
                 builder.Entity<IdentityRole<long>>().Property(w => w.Name).HasColumnName("name");
                 builder.Entity<IdentityRole<long>>().Property(w => w.NormalizedName).HasColumnName("normalized_name");
             }
