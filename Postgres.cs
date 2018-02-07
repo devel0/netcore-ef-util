@@ -2,10 +2,10 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
-namespace SearchAThing.NETCoreEFUtil
+namespace SearchAThing
 {
 
-    public static partial class Extensions
+    public static partial class Util
     {
 
         /// <summary>
