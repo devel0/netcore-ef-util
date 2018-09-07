@@ -1,25 +1,34 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27323.2
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "netcore-ef-util", "netcore-ef-util.csproj", "{CEBB5C52-6803-4F95-82D5-09300BA2DB7F}"
+VisualStudioVersion = 15.0.26124.0
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "netcore-ef-util", "netcore-ef-util\netcore-ef-util.csproj", "{AE1451B2-4E0D-4D42-8DB8-2B6303030CF1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{CEBB5C52-6803-4F95-82D5-09300BA2DB7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CEBB5C52-6803-4F95-82D5-09300BA2DB7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CEBB5C52-6803-4F95-82D5-09300BA2DB7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CEBB5C52-6803-4F95-82D5-09300BA2DB7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {CAD2F561-AA41-4965-AD3D-25D420A0654E}
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE1451B2-4E0D-4D42-8DB8-2B6303030CF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE1451B2-4E0D-4D42-8DB8-2B6303030CF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE1451B2-4E0D-4D42-8DB8-2B6303030CF1}.Debug|x64.ActiveCfg = Debug|x64
+		{AE1451B2-4E0D-4D42-8DB8-2B6303030CF1}.Debug|x64.Build.0 = Debug|x64
+		{AE1451B2-4E0D-4D42-8DB8-2B6303030CF1}.Debug|x86.ActiveCfg = Debug|x86
+		{AE1451B2-4E0D-4D42-8DB8-2B6303030CF1}.Debug|x86.Build.0 = Debug|x86
+		{AE1451B2-4E0D-4D42-8DB8-2B6303030CF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE1451B2-4E0D-4D42-8DB8-2B6303030CF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE1451B2-4E0D-4D42-8DB8-2B6303030CF1}.Release|x64.ActiveCfg = Release|x64
+		{AE1451B2-4E0D-4D42-8DB8-2B6303030CF1}.Release|x64.Build.0 = Release|x64
+		{AE1451B2-4E0D-4D42-8DB8-2B6303030CF1}.Release|x86.ActiveCfg = Release|x86
+		{AE1451B2-4E0D-4D42-8DB8-2B6303030CF1}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 EndGlobal
