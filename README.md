@@ -1,13 +1,29 @@
 # netcore-ef-util
 
-## install
+[![devel0 MyGet Build Status](https://www.myget.org/BuildSource/Badge/devel0?identifier=ccad32de-3eb4-472d-967c-86817bc95994)](https://www.myget.org/)
 
-```
-dotnet add package netcore-ef-util --version 1.0.0-CI00012 --source https://www.myget.org/F/devel0/api/v3/index.json
-```
+.NET core entity framework util
 
-## using extensions
+## install and usage
 
-```csharp
-using SearchAThing.NetCoreEFUtil;
+browse [myget istructions](https://www.myget.org/feed/devel0/package/nuget/netcore-ef-util)
+
+## how this project was built
+
+```sh
+mkdir netcore-ef-util
+cd netcore-ef-util
+
+dotnet new sln
+dotnet new classlib -n netcore-ef-util
+
+cd netcore-ef-util
+dotnet add package Microsoft.EntityFrameworkCore --version 2.2.0-preview1-35029
+dotnet add package Microsoft.EntityFrameworkCore.Relational --version 2.2.0-preview1-35029
+dotnet add package Microsoft.Extensions.Identity.Stores --version 2.2.0-preview1-35029
+cd ..
+
+dotnet sln netcore-ef-util.sln add netcore-ef-util/netcore-ef-util.csproj
+dotnet restore
+dotnet build
 ```
