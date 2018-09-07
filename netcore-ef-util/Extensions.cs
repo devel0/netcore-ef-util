@@ -6,7 +6,7 @@ using System.Reflection;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 
-namespace SearchAThing.NETCoreEFUtil
+namespace SearchAThing.EFUtil
 {
 
     public static partial class Util

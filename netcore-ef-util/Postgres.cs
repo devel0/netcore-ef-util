@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
-namespace SearchAThing.NETCoreEFUtil
+namespace SearchAThing.EFUtil
 {
 
     public static partial class Util
