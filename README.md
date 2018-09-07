@@ -3,7 +3,7 @@
 ## install
 
 ```
-dotnet add package netcore-ef-util --version 1.0.0-CI00010 --source https://www.myget.org/F/devel0/api/v3/index.json
+dotnet add package netcore-ef-util --version 1.0.0-CI00012 --source https://www.myget.org/F/devel0/api/v3/index.json
 ```
 
 ## using extensions
