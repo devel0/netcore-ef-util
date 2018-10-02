@@ -18,38 +18,44 @@ namespace SearchAThing.EFUtil
         /// </summary>        
         public static List<T> ExecSQL<T>(this DbContext context, string query, ILogger logger = null)
         {
-            using (context)
+            using (var command = context.Database.GetDbConnection().CreateCommand())
             {
-                using (var command = context.Database.GetDbConnection().CreateCommand())
+                command.CommandText = query;
+                command.CommandType = CommandType.Text;
+                context.Database.OpenConnection();
+
+                using (var result = command.ExecuteReader())
                 {
-                    command.CommandText = query;
-                    command.CommandType = CommandType.Text;
-                    context.Database.OpenConnection();
+                    var sw = new Stopwatch();
+                    sw.Start();
+                    var list = new List<T>();
+                    var obj = default(T);
 
-                    using (var result = command.ExecuteReader())
+                    while (result.Read())
                     {
-                        var sw = new Stopwatch();
-                        sw.Start();
-                        var list = new List<T>();
-                        var obj = default(T);
-                        while (result.Read())
+                        obj = Activator.CreateInstance<T>();
+                        foreach (PropertyInfo prop in obj.GetType().GetProperties())
                         {
-                            obj = Activator.CreateInstance<T>();
-                            foreach (PropertyInfo prop in obj.GetType().GetProperties())
+                            if (!Equals(result[prop.Name], DBNull.Value))
                             {
-                                if (!Equals(result[prop.Name], DBNull.Value))
-                                {
-                                    prop.SetValue(obj, result[prop.Name], null);
-                                }
+                                prop.SetValue(obj, result[prop.Name], null);
                             }
-                            list.Add(obj);
                         }
-                        sw.Stop();
-                        logger?.LogInformation($"Executed ({sw.ElapsedMilliseconds}ms)");
-                        logger?.LogInformation($"{query}");
-
-                        return list;
+                        foreach (FieldInfo field in obj.GetType().GetFields())
+                        {
+                            if (!Equals(result[field.Name], DBNull.Value))
+                            {
+                                field.SetValue(obj, result[field.Name]);
+                            }
+                        }
+                        list.Add(obj);
                     }
+
+                    sw.Stop();
+                    logger?.LogInformation($"Executed ({sw.ElapsedMilliseconds}ms)");
+                    logger?.LogInformation($"{query}");
+
+                    return list;
                 }
             }
         }
