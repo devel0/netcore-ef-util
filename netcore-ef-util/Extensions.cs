@@ -30,22 +30,31 @@ namespace SearchAThing.EFUtil
                     sw.Start();
                     var list = new List<T>();
                     var obj = default(T);
+                    var isPrimitive = typeof(T).IsPrimitive;
 
                     while (result.Read())
                     {
-                        obj = Activator.CreateInstance<T>();
-                        foreach (PropertyInfo prop in obj.GetType().GetProperties())
+                        if (isPrimitive)
                         {
-                            if (!Equals(result[prop.Name], DBNull.Value))
-                            {
-                                prop.SetValue(obj, result[prop.Name], null);
-                            }
+                            obj = (T)result.GetValue(0);
                         }
-                        foreach (FieldInfo field in obj.GetType().GetFields())
+                        else
                         {
-                            if (!Equals(result[field.Name], DBNull.Value))
+                            obj = Activator.CreateInstance<T>();
+
+                            foreach (PropertyInfo prop in obj.GetType().GetProperties())
                             {
-                                field.SetValue(obj, result[field.Name]);
+                                if (!Equals(result[prop.Name], DBNull.Value))
+                                {
+                                    prop.SetValue(obj, result[prop.Name], null);
+                                }
+                            }
+                            foreach (FieldInfo field in obj.GetType().GetFields())
+                            {
+                                if (!Equals(result[field.Name], DBNull.Value))
+                                {
+                                    field.SetValue(obj, result[field.Name]);
+                                }
                             }
                         }
                         list.Add(obj);
