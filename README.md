@@ -25,7 +25,13 @@ dotnet add package Microsoft.EntityFrameworkCore.Relational --version 2.2.0-prev
 dotnet add package Microsoft.Extensions.Identity.Stores --version 2.2.0-preview1-35029
 cd ..
 
+dotnet new xunit -n test
+cd test
+dotnet add reference ../netcore-ef-util/netcore-ef-util.csproj
+cd ..
+
 dotnet sln netcore-ef-util.sln add netcore-ef-util/netcore-ef-util.csproj
 dotnet restore
 dotnet build
+dotnet test test/test.csproj
 ```
