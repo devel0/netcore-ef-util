@@ -34,7 +34,7 @@ namespace SearchAThing.EFUtil
             {
                 command.CommandText = query;
                 command.CommandType = CommandType.Text;
-                command.Parameters.AddRange(sqlParams);
+                if (sqlParams != null) command.Parameters.AddRange(sqlParams);
                 context.Database.OpenConnection();
 
                 using (var result = command.ExecuteReader())
