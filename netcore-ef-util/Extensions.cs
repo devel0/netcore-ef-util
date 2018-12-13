@@ -16,7 +16,7 @@ namespace SearchAThing.EFUtil
 
         public static List<T> ExecSQL<T>(this DbContext context, string query, ILogger logger = null)
         {
-            return ExecSQL<T>(context, query, logger);
+            return ExecSQL<T>(context, query, logger, null);
         }
 
         public static List<T> ExecSQL<T>(this DbContext context, string query, params SqlParameter[] sqlParams)
