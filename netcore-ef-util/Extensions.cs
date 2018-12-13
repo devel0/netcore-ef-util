@@ -5,6 +5,7 @@ using System.Diagnostics;
 using System.Reflection;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
+using SearchAThing.Mapper;
 
 namespace SearchAThing.EFUtil
 {
@@ -15,7 +16,7 @@ namespace SearchAThing.EFUtil
         /// <summary>
         /// execute Raw SQL queries: Non-model types
         /// https://github.com/aspnet/EntityFrameworkCore/issues/1862
-        /// </summary>        
+        /// </summary>
         public static List<T> ExecSQL<T>(this DbContext context, string query, ILogger logger = null)
         {
             using (var command = context.Database.GetDbConnection().CreateCommand())
@@ -29,35 +30,11 @@ namespace SearchAThing.EFUtil
                     var sw = new Stopwatch();
                     sw.Start();
                     var list = new List<T>();
-                    var obj = default(T);
-                    var isPrimitive = typeof(T).IsPrimitive;
+                    var mapper = new DataReaderMapper<T>(result);
 
                     while (result.Read())
                     {
-                        if (isPrimitive)
-                        {
-                            obj = (T)result.GetValue(0);
-                        }
-                        else
-                        {
-                            obj = Activator.CreateInstance<T>();
-
-                            foreach (PropertyInfo prop in obj.GetType().GetProperties())
-                            {
-                                if (!Equals(result[prop.Name], DBNull.Value))
-                                {
-                                    prop.SetValue(obj, result[prop.Name], null);
-                                }
-                            }
-                            foreach (FieldInfo field in obj.GetType().GetFields())
-                            {
-                                if (!Equals(result[field.Name], DBNull.Value))
-                                {
-                                    field.SetValue(obj, result[field.Name]);
-                                }
-                            }
-                        }
-                        list.Add(obj);
+                        list.Add(mapper.MapFrom(result));
                     }
 
                     sw.Stop();
