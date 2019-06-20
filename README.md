@@ -4,11 +4,15 @@
 
 .NET core entity framework util
 
-## install and usage
+## install
 
 browse [myget instructions](https://www.myget.org/feed/devel0/package/nuget/netcore-ef-util)
 
 add `nuget.config` where your solution or csproj that refer this library in order to allow other to restore correcly myget dependencies.
+
+## usage
+
+- [ExecSQL](https://github.com/devel0/worked-hours-tracker/blob/cec37c8c07bef5e07c03ca2c9a129094faab1fa0/WorkedHoursTrackerWebapi/Controllers/ApiController.cs#L481)
 
 ## how this project was built
 
