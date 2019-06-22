@@ -1,14 +1,12 @@
 # netcore-ef-util
 
-[![devel0 MyGet Build Status](https://www.myget.org/BuildSource/Badge/devel0?identifier=ccad32de-3eb4-472d-967c-86817bc95994)](https://www.myget.org/)
+[![NuGet Badge](https://buildstats.info/nuget/netcore-util)](https://www.nuget.org/packages/netcore-ef-util/)
 
 .NET core entity framework util
 
 ## install
 
-browse [myget instructions](https://www.myget.org/feed/devel0/package/nuget/netcore-ef-util)
-
-add `nuget.config` where your solution or csproj that refer this library in order to allow other to restore correcly myget dependencies.
+- [nuget package](https://www.nuget.org/packages/netcore-ef-util/)
 
 ## usage
 
