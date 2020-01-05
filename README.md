@@ -12,6 +12,8 @@
 
 - [ExecSQL](https://github.com/devel0/worked-hours-tracker/blob/cec37c8c07bef5e07c03ca2c9a129094faab1fa0/WorkedHoursTrackerWebapi/Controllers/ApiController.cs#L481)
 
+- [API](doc/api/EFUtil/Util.md)
+
 ## how this project was built
 
 ```sh
