@@ -1,6 +1,6 @@
 # netcore-ef-util
 
-[![NuGet Badge](https://buildstats.info/nuget/netcore-util)](https://www.nuget.org/packages/netcore-ef-util/)
+[![NuGet Badge](https://buildstats.info/nuget/netcore-ef-util)](https://www.nuget.org/packages/netcore-ef-util/)
 
 .NET core entity framework util
 
