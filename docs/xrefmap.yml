@@ -1,132 +1,402 @@
 ### YamlMime:XRefMap
 sorted: true
 references:
-- uid: SearchAThing.PsqlUtil
-  name: SearchAThing.PsqlUtil
-  href: api/SearchAThing.PsqlUtil.html
-  commentId: N:SearchAThing.PsqlUtil
-  fullName: SearchAThing.PsqlUtil
-  nameWithType: SearchAThing.PsqlUtil
-- uid: SearchAThing.PsqlUtil.Util
+- uid: SearchAThing.EFUtil
+  name: SearchAThing.EFUtil
+  href: api/SearchAThing.EFUtil.html
+  commentId: N:SearchAThing.EFUtil
+  fullName: SearchAThing.EFUtil
+  nameWithType: SearchAThing.EFUtil
+- uid: SearchAThing.EFUtil.Util
   name: Util
-  href: api/SearchAThing.PsqlUtil.Util.html
-  commentId: T:SearchAThing.PsqlUtil.Util
-  fullName: SearchAThing.PsqlUtil.Util
+  href: api/SearchAThing.EFUtil.Util.html
+  commentId: T:SearchAThing.EFUtil.Util
+  fullName: SearchAThing.EFUtil.Util
   nameWithType: Util
-- uid: SearchAThing.PsqlUtil.Util.EnableFirstLastAggregateFunctions(DbContext)
-  name: EnableFirstLastAggregateFunctions(DbContext)
-  href: api/SearchAThing.PsqlUtil.Util.html#SearchAThing_PsqlUtil_Util_EnableFirstLastAggregateFunctions_DbContext_
-  commentId: M:SearchAThing.PsqlUtil.Util.EnableFirstLastAggregateFunctions(DbContext)
-  fullName: SearchAThing.PsqlUtil.Util.EnableFirstLastAggregateFunctions(DbContext)
-  nameWithType: Util.EnableFirstLastAggregateFunctions(DbContext)
-- uid: SearchAThing.PsqlUtil.Util.EnableFirstLastAggregateFunctions*
-  name: EnableFirstLastAggregateFunctions
-  href: api/SearchAThing.PsqlUtil.Util.html#SearchAThing_PsqlUtil_Util_EnableFirstLastAggregateFunctions_
-  commentId: Overload:SearchAThing.PsqlUtil.Util.EnableFirstLastAggregateFunctions
+- uid: SearchAThing.EFUtil.Util.ASPNetIdentityPSQLLike(ModelBuilder)
+  name: ASPNetIdentityPSQLLike(ModelBuilder)
+  href: api/SearchAThing.EFUtil.Util.html#SearchAThing_EFUtil_Util_ASPNetIdentityPSQLLike_ModelBuilder_
+  commentId: M:SearchAThing.EFUtil.Util.ASPNetIdentityPSQLLike(ModelBuilder)
+  fullName: SearchAThing.EFUtil.Util.ASPNetIdentityPSQLLike(ModelBuilder)
+  nameWithType: Util.ASPNetIdentityPSQLLike(ModelBuilder)
+- uid: SearchAThing.EFUtil.Util.ASPNetIdentityPSQLLike*
+  name: ASPNetIdentityPSQLLike
+  href: api/SearchAThing.EFUtil.Util.html#SearchAThing_EFUtil_Util_ASPNetIdentityPSQLLike_
+  commentId: Overload:SearchAThing.EFUtil.Util.ASPNetIdentityPSQLLike
   isSpec: "True"
-  fullName: SearchAThing.PsqlUtil.Util.EnableFirstLastAggregateFunctions
-  nameWithType: Util.EnableFirstLastAggregateFunctions
-- uid: SearchAThing.PsqlUtil.Util.IsPsqlNull(System.Object)
-  name: IsPsqlNull(Object)
-  href: api/SearchAThing.PsqlUtil.Util.html#SearchAThing_PsqlUtil_Util_IsPsqlNull_System_Object_
-  commentId: M:SearchAThing.PsqlUtil.Util.IsPsqlNull(System.Object)
-  fullName: SearchAThing.PsqlUtil.Util.IsPsqlNull(System.Object)
-  nameWithType: Util.IsPsqlNull(Object)
-- uid: SearchAThing.PsqlUtil.Util.IsPsqlNull*
-  name: IsPsqlNull
-  href: api/SearchAThing.PsqlUtil.Util.html#SearchAThing_PsqlUtil_Util_IsPsqlNull_
-  commentId: Overload:SearchAThing.PsqlUtil.Util.IsPsqlNull
+  fullName: SearchAThing.EFUtil.Util.ASPNetIdentityPSQLLike
+  nameWithType: Util.ASPNetIdentityPSQLLike
+- uid: SearchAThing.EFUtil.Util.ExecSQL*
+  name: ExecSQL
+  href: api/SearchAThing.EFUtil.Util.html#SearchAThing_EFUtil_Util_ExecSQL_
+  commentId: Overload:SearchAThing.EFUtil.Util.ExecSQL
   isSpec: "True"
-  fullName: SearchAThing.PsqlUtil.Util.IsPsqlNull
-  nameWithType: Util.IsPsqlNull
-- uid: SearchAThing.PsqlUtil.Util.ToPsql(DateTime)
-  name: ToPsql(DateTime)
-  href: api/SearchAThing.PsqlUtil.Util.html#SearchAThing_PsqlUtil_Util_ToPsql_DateTime_
-  commentId: M:SearchAThing.PsqlUtil.Util.ToPsql(DateTime)
-  fullName: SearchAThing.PsqlUtil.Util.ToPsql(DateTime)
-  nameWithType: Util.ToPsql(DateTime)
-- uid: SearchAThing.PsqlUtil.Util.ToPsql(IEnumerable{System.Double})
-  name: ToPsql(IEnumerable<Double>)
-  href: api/SearchAThing.PsqlUtil.Util.html#SearchAThing_PsqlUtil_Util_ToPsql_IEnumerable_System_Double__
-  commentId: M:SearchAThing.PsqlUtil.Util.ToPsql(IEnumerable{System.Double})
-  name.vb: ToPsql(IEnumerable(Of Double))
-  fullName: SearchAThing.PsqlUtil.Util.ToPsql(IEnumerable<System.Double>)
-  fullName.vb: SearchAThing.PsqlUtil.Util.ToPsql(IEnumerable(Of System.Double))
-  nameWithType: Util.ToPsql(IEnumerable<Double>)
-  nameWithType.vb: Util.ToPsql(IEnumerable(Of Double))
-- uid: SearchAThing.PsqlUtil.Util.ToPsql(IEnumerable{System.Nullable{System.Double}})
-  name: ToPsql(IEnumerable<Nullable<Double>>)
-  href: api/SearchAThing.PsqlUtil.Util.html#SearchAThing_PsqlUtil_Util_ToPsql_IEnumerable_System_Nullable_System_Double___
-  commentId: M:SearchAThing.PsqlUtil.Util.ToPsql(IEnumerable{System.Nullable{System.Double}})
-  name.vb: ToPsql(IEnumerable(Of Nullable(Of Double)))
-  fullName: SearchAThing.PsqlUtil.Util.ToPsql(IEnumerable<System.Nullable<System.Double>>)
-  fullName.vb: SearchAThing.PsqlUtil.Util.ToPsql(IEnumerable(Of System.Nullable(Of System.Double)))
-  nameWithType: Util.ToPsql(IEnumerable<Nullable<Double>>)
-  nameWithType.vb: Util.ToPsql(IEnumerable(Of Nullable(Of Double)))
-- uid: SearchAThing.PsqlUtil.Util.ToPsql(System.Boolean)
-  name: ToPsql(Boolean)
-  href: api/SearchAThing.PsqlUtil.Util.html#SearchAThing_PsqlUtil_Util_ToPsql_System_Boolean_
-  commentId: M:SearchAThing.PsqlUtil.Util.ToPsql(System.Boolean)
-  fullName: SearchAThing.PsqlUtil.Util.ToPsql(System.Boolean)
-  nameWithType: Util.ToPsql(Boolean)
-- uid: SearchAThing.PsqlUtil.Util.ToPsql(System.Double)
-  name: ToPsql(Double)
-  href: api/SearchAThing.PsqlUtil.Util.html#SearchAThing_PsqlUtil_Util_ToPsql_System_Double_
-  commentId: M:SearchAThing.PsqlUtil.Util.ToPsql(System.Double)
-  fullName: SearchAThing.PsqlUtil.Util.ToPsql(System.Double)
-  nameWithType: Util.ToPsql(Double)
-- uid: SearchAThing.PsqlUtil.Util.ToPsql(System.Int32)
-  name: ToPsql(Int32)
-  href: api/SearchAThing.PsqlUtil.Util.html#SearchAThing_PsqlUtil_Util_ToPsql_System_Int32_
-  commentId: M:SearchAThing.PsqlUtil.Util.ToPsql(System.Int32)
-  fullName: SearchAThing.PsqlUtil.Util.ToPsql(System.Int32)
-  nameWithType: Util.ToPsql(Int32)
-- uid: SearchAThing.PsqlUtil.Util.ToPsql(System.Nullable{DateTime})
-  name: ToPsql(Nullable<DateTime>)
-  href: api/SearchAThing.PsqlUtil.Util.html#SearchAThing_PsqlUtil_Util_ToPsql_System_Nullable_DateTime__
-  commentId: M:SearchAThing.PsqlUtil.Util.ToPsql(System.Nullable{DateTime})
-  name.vb: ToPsql(Nullable(Of DateTime))
-  fullName: SearchAThing.PsqlUtil.Util.ToPsql(System.Nullable<DateTime>)
-  fullName.vb: SearchAThing.PsqlUtil.Util.ToPsql(System.Nullable(Of DateTime))
-  nameWithType: Util.ToPsql(Nullable<DateTime>)
-  nameWithType.vb: Util.ToPsql(Nullable(Of DateTime))
-- uid: SearchAThing.PsqlUtil.Util.ToPsql(System.Nullable{System.Boolean})
-  name: ToPsql(Nullable<Boolean>)
-  href: api/SearchAThing.PsqlUtil.Util.html#SearchAThing_PsqlUtil_Util_ToPsql_System_Nullable_System_Boolean__
-  commentId: M:SearchAThing.PsqlUtil.Util.ToPsql(System.Nullable{System.Boolean})
-  name.vb: ToPsql(Nullable(Of Boolean))
-  fullName: SearchAThing.PsqlUtil.Util.ToPsql(System.Nullable<System.Boolean>)
-  fullName.vb: SearchAThing.PsqlUtil.Util.ToPsql(System.Nullable(Of System.Boolean))
-  nameWithType: Util.ToPsql(Nullable<Boolean>)
-  nameWithType.vb: Util.ToPsql(Nullable(Of Boolean))
-- uid: SearchAThing.PsqlUtil.Util.ToPsql(System.Nullable{System.Double})
-  name: ToPsql(Nullable<Double>)
-  href: api/SearchAThing.PsqlUtil.Util.html#SearchAThing_PsqlUtil_Util_ToPsql_System_Nullable_System_Double__
-  commentId: M:SearchAThing.PsqlUtil.Util.ToPsql(System.Nullable{System.Double})
-  name.vb: ToPsql(Nullable(Of Double))
-  fullName: SearchAThing.PsqlUtil.Util.ToPsql(System.Nullable<System.Double>)
-  fullName.vb: SearchAThing.PsqlUtil.Util.ToPsql(System.Nullable(Of System.Double))
-  nameWithType: Util.ToPsql(Nullable<Double>)
-  nameWithType.vb: Util.ToPsql(Nullable(Of Double))
-- uid: SearchAThing.PsqlUtil.Util.ToPsql(System.Nullable{System.Int32})
-  name: ToPsql(Nullable<Int32>)
-  href: api/SearchAThing.PsqlUtil.Util.html#SearchAThing_PsqlUtil_Util_ToPsql_System_Nullable_System_Int32__
-  commentId: M:SearchAThing.PsqlUtil.Util.ToPsql(System.Nullable{System.Int32})
-  name.vb: ToPsql(Nullable(Of Int32))
-  fullName: SearchAThing.PsqlUtil.Util.ToPsql(System.Nullable<System.Int32>)
-  fullName.vb: SearchAThing.PsqlUtil.Util.ToPsql(System.Nullable(Of System.Int32))
-  nameWithType: Util.ToPsql(Nullable<Int32>)
-  nameWithType.vb: Util.ToPsql(Nullable(Of Int32))
-- uid: SearchAThing.PsqlUtil.Util.ToPsql(System.String)
-  name: ToPsql(String)
-  href: api/SearchAThing.PsqlUtil.Util.html#SearchAThing_PsqlUtil_Util_ToPsql_System_String_
-  commentId: M:SearchAThing.PsqlUtil.Util.ToPsql(System.String)
-  fullName: SearchAThing.PsqlUtil.Util.ToPsql(System.String)
-  nameWithType: Util.ToPsql(String)
-- uid: SearchAThing.PsqlUtil.Util.ToPsql*
-  name: ToPsql
-  href: api/SearchAThing.PsqlUtil.Util.html#SearchAThing_PsqlUtil_Util_ToPsql_
-  commentId: Overload:SearchAThing.PsqlUtil.Util.ToPsql
+  fullName: SearchAThing.EFUtil.Util.ExecSQL
+  nameWithType: Util.ExecSQL
+- uid: SearchAThing.EFUtil.Util.ExecSQL``1(DbContext,System.String,ILogger)
+  name: ExecSQL<T>(DbContext, String, ILogger)
+  href: api/SearchAThing.EFUtil.Util.html#SearchAThing_EFUtil_Util_ExecSQL__1_DbContext_System_String_ILogger_
+  commentId: M:SearchAThing.EFUtil.Util.ExecSQL``1(DbContext,System.String,ILogger)
+  name.vb: ExecSQL(Of T)(DbContext, String, ILogger)
+  fullName: SearchAThing.EFUtil.Util.ExecSQL<T>(DbContext, System.String, ILogger)
+  fullName.vb: SearchAThing.EFUtil.Util.ExecSQL(Of T)(DbContext, System.String, ILogger)
+  nameWithType: Util.ExecSQL<T>(DbContext, String, ILogger)
+  nameWithType.vb: Util.ExecSQL(Of T)(DbContext, String, ILogger)
+- uid: SearchAThing.EFUtil.Util.ExecSQL``1(DbContext,System.String,ILogger,SqlParameter[])
+  name: ExecSQL<T>(DbContext, String, ILogger, SqlParameter[])
+  href: api/SearchAThing.EFUtil.Util.html#SearchAThing_EFUtil_Util_ExecSQL__1_DbContext_System_String_ILogger_SqlParameter___
+  commentId: M:SearchAThing.EFUtil.Util.ExecSQL``1(DbContext,System.String,ILogger,SqlParameter[])
+  name.vb: ExecSQL(Of T)(DbContext, String, ILogger, SqlParameter())
+  fullName: SearchAThing.EFUtil.Util.ExecSQL<T>(DbContext, System.String, ILogger, SqlParameter[])
+  fullName.vb: SearchAThing.EFUtil.Util.ExecSQL(Of T)(DbContext, System.String, ILogger, SqlParameter())
+  nameWithType: Util.ExecSQL<T>(DbContext, String, ILogger, SqlParameter[])
+  nameWithType.vb: Util.ExecSQL(Of T)(DbContext, String, ILogger, SqlParameter())
+- uid: SearchAThing.EFUtil.Util.ExecSQL``1(DbContext,System.String,SqlParameter[])
+  name: ExecSQL<T>(DbContext, String, SqlParameter[])
+  href: api/SearchAThing.EFUtil.Util.html#SearchAThing_EFUtil_Util_ExecSQL__1_DbContext_System_String_SqlParameter___
+  commentId: M:SearchAThing.EFUtil.Util.ExecSQL``1(DbContext,System.String,SqlParameter[])
+  name.vb: ExecSQL(Of T)(DbContext, String, SqlParameter())
+  fullName: SearchAThing.EFUtil.Util.ExecSQL<T>(DbContext, System.String, SqlParameter[])
+  fullName.vb: SearchAThing.EFUtil.Util.ExecSQL(Of T)(DbContext, System.String, SqlParameter())
+  nameWithType: Util.ExecSQL<T>(DbContext, String, SqlParameter[])
+  nameWithType.vb: Util.ExecSQL(Of T)(DbContext, String, SqlParameter())
+- uid: SearchAThing.Helpers
+  name: SearchAThing.Helpers
+  href: api/SearchAThing.Helpers.html
+  commentId: N:SearchAThing.Helpers
+  fullName: SearchAThing.Helpers
+  nameWithType: SearchAThing.Helpers
+- uid: SearchAThing.Helpers.Either`2
+  name: Either<L, R>
+  href: api/SearchAThing.Helpers.Either-2.html
+  commentId: T:SearchAThing.Helpers.Either`2
+  name.vb: Either(Of L, R)
+  fullName: SearchAThing.Helpers.Either<L, R>
+  fullName.vb: SearchAThing.Helpers.Either(Of L, R)
+  nameWithType: Either<L, R>
+  nameWithType.vb: Either(Of L, R)
+- uid: SearchAThing.Helpers.Either`2.Left
+  name: Either<L, R>.Left
+  href: api/SearchAThing.Helpers.Either-2.Left.html
+  commentId: T:SearchAThing.Helpers.Either`2.Left
+  name.vb: Either(Of L, R).Left
+  fullName: SearchAThing.Helpers.Either<L, R>.Left
+  fullName.vb: SearchAThing.Helpers.Either(Of L, R).Left
+  nameWithType: Either<L, R>.Left
+  nameWithType.vb: Either(Of L, R).Left
+- uid: SearchAThing.Helpers.Either`2.Left.#ctor(`0)
+  name: Left(L)
+  href: api/SearchAThing.Helpers.Either-2.Left.html#SearchAThing_Helpers_Either_2_Left__ctor__0_
+  commentId: M:SearchAThing.Helpers.Either`2.Left.#ctor(`0)
+  fullName: SearchAThing.Helpers.Either<L, R>.Left.Left(L)
+  fullName.vb: SearchAThing.Helpers.Either(Of L, R).Left.Left(L)
+  nameWithType: Either<L, R>.Left.Left(L)
+  nameWithType.vb: Either(Of L, R).Left.Left(L)
+- uid: SearchAThing.Helpers.Either`2.Left.#ctor*
+  name: Left
+  href: api/SearchAThing.Helpers.Either-2.Left.html#SearchAThing_Helpers_Either_2_Left__ctor_
+  commentId: Overload:SearchAThing.Helpers.Either`2.Left.#ctor
   isSpec: "True"
-  fullName: SearchAThing.PsqlUtil.Util.ToPsql
-  nameWithType: Util.ToPsql
+  fullName: SearchAThing.Helpers.Either<L, R>.Left.Left
+  fullName.vb: SearchAThing.Helpers.Either(Of L, R).Left.Left
+  nameWithType: Either<L, R>.Left.Left
+  nameWithType.vb: Either(Of L, R).Left.Left
+- uid: SearchAThing.Helpers.Either`2.Left.Item
+  name: Item
+  href: api/SearchAThing.Helpers.Either-2.Left.html#SearchAThing_Helpers_Either_2_Left_Item
+  commentId: F:SearchAThing.Helpers.Either`2.Left.Item
+  fullName: SearchAThing.Helpers.Either<L, R>.Left.Item
+  fullName.vb: SearchAThing.Helpers.Either(Of L, R).Left.Item
+  nameWithType: Either<L, R>.Left.Item
+  nameWithType.vb: Either(Of L, R).Left.Item
+- uid: SearchAThing.Helpers.Either`2.Left.Map*
+  name: Map
+  href: api/SearchAThing.Helpers.Either-2.Left.html#SearchAThing_Helpers_Either_2_Left_Map_
+  commentId: Overload:SearchAThing.Helpers.Either`2.Left.Map
+  isSpec: "True"
+  fullName: SearchAThing.Helpers.Either<L, R>.Left.Map
+  fullName.vb: SearchAThing.Helpers.Either(Of L, R).Left.Map
+  nameWithType: Either<L, R>.Left.Map
+  nameWithType.vb: Either(Of L, R).Left.Map
+- uid: SearchAThing.Helpers.Either`2.Left.Map``1(System.Func{`0,``0})
+  name: Map<T>(Func<L, T>)
+  href: api/SearchAThing.Helpers.Either-2.Left.html#SearchAThing_Helpers_Either_2_Left_Map__1_System_Func__0___0__
+  commentId: M:SearchAThing.Helpers.Either`2.Left.Map``1(System.Func{`0,``0})
+  name.vb: Map(Of T)(Func(Of L, T))
+  fullName: SearchAThing.Helpers.Either<L, R>.Left.Map<T>(System.Func<L, T>)
+  fullName.vb: SearchAThing.Helpers.Either(Of L, R).Left.Map(Of T)(System.Func(Of L, T))
+  nameWithType: Either<L, R>.Left.Map<T>(Func<L, T>)
+  nameWithType.vb: Either(Of L, R).Left.Map(Of T)(Func(Of L, T))
+- uid: SearchAThing.Helpers.Either`2.Left.Match(System.Action{`0},System.Action{`1})
+  name: Match(Action<L>, Action<R>)
+  href: api/SearchAThing.Helpers.Either-2.Left.html#SearchAThing_Helpers_Either_2_Left_Match_System_Action__0__System_Action__1__
+  commentId: M:SearchAThing.Helpers.Either`2.Left.Match(System.Action{`0},System.Action{`1})
+  name.vb: Match(Action(Of L), Action(Of R))
+  fullName: SearchAThing.Helpers.Either<L, R>.Left.Match(System.Action<L>, System.Action<R>)
+  fullName.vb: SearchAThing.Helpers.Either(Of L, R).Left.Match(System.Action(Of L), System.Action(Of R))
+  nameWithType: Either<L, R>.Left.Match(Action<L>, Action<R>)
+  nameWithType.vb: Either(Of L, R).Left.Match(Action(Of L), Action(Of R))
+- uid: SearchAThing.Helpers.Either`2.Left.Match*
+  name: Match
+  href: api/SearchAThing.Helpers.Either-2.Left.html#SearchAThing_Helpers_Either_2_Left_Match_
+  commentId: Overload:SearchAThing.Helpers.Either`2.Left.Match
+  isSpec: "True"
+  fullName: SearchAThing.Helpers.Either<L, R>.Left.Match
+  fullName.vb: SearchAThing.Helpers.Either(Of L, R).Left.Match
+  nameWithType: Either<L, R>.Left.Match
+  nameWithType.vb: Either(Of L, R).Left.Match
+- uid: SearchAThing.Helpers.Either`2.Left.Match``1(System.Func{`0,``0},System.Func{`1,``0})
+  name: Match<T>(Func<L, T>, Func<R, T>)
+  href: api/SearchAThing.Helpers.Either-2.Left.html#SearchAThing_Helpers_Either_2_Left_Match__1_System_Func__0___0__System_Func__1___0__
+  commentId: M:SearchAThing.Helpers.Either`2.Left.Match``1(System.Func{`0,``0},System.Func{`1,``0})
+  name.vb: Match(Of T)(Func(Of L, T), Func(Of R, T))
+  fullName: SearchAThing.Helpers.Either<L, R>.Left.Match<T>(System.Func<L, T>, System.Func<R, T>)
+  fullName.vb: SearchAThing.Helpers.Either(Of L, R).Left.Match(Of T)(System.Func(Of L, T), System.Func(Of R, T))
+  nameWithType: Either<L, R>.Left.Match<T>(Func<L, T>, Func<R, T>)
+  nameWithType.vb: Either(Of L, R).Left.Match(Of T)(Func(Of L, T), Func(Of R, T))
+- uid: SearchAThing.Helpers.Either`2.Map*
+  name: Map
+  href: api/SearchAThing.Helpers.Either-2.html#SearchAThing_Helpers_Either_2_Map_
+  commentId: Overload:SearchAThing.Helpers.Either`2.Map
+  isSpec: "True"
+  fullName: SearchAThing.Helpers.Either<L, R>.Map
+  fullName.vb: SearchAThing.Helpers.Either(Of L, R).Map
+  nameWithType: Either<L, R>.Map
+  nameWithType.vb: Either(Of L, R).Map
+- uid: SearchAThing.Helpers.Either`2.Map``1(System.Func{`0,``0})
+  name: Map<T>(Func<L, T>)
+  href: api/SearchAThing.Helpers.Either-2.html#SearchAThing_Helpers_Either_2_Map__1_System_Func__0___0__
+  commentId: M:SearchAThing.Helpers.Either`2.Map``1(System.Func{`0,``0})
+  name.vb: Map(Of T)(Func(Of L, T))
+  fullName: SearchAThing.Helpers.Either<L, R>.Map<T>(System.Func<L, T>)
+  fullName.vb: SearchAThing.Helpers.Either(Of L, R).Map(Of T)(System.Func(Of L, T))
+  nameWithType: Either<L, R>.Map<T>(Func<L, T>)
+  nameWithType.vb: Either(Of L, R).Map(Of T)(Func(Of L, T))
+- uid: SearchAThing.Helpers.Either`2.Match(System.Action{`0},System.Action{`1})
+  name: Match(Action<L>, Action<R>)
+  href: api/SearchAThing.Helpers.Either-2.html#SearchAThing_Helpers_Either_2_Match_System_Action__0__System_Action__1__
+  commentId: M:SearchAThing.Helpers.Either`2.Match(System.Action{`0},System.Action{`1})
+  name.vb: Match(Action(Of L), Action(Of R))
+  fullName: SearchAThing.Helpers.Either<L, R>.Match(System.Action<L>, System.Action<R>)
+  fullName.vb: SearchAThing.Helpers.Either(Of L, R).Match(System.Action(Of L), System.Action(Of R))
+  nameWithType: Either<L, R>.Match(Action<L>, Action<R>)
+  nameWithType.vb: Either(Of L, R).Match(Action(Of L), Action(Of R))
+- uid: SearchAThing.Helpers.Either`2.Match*
+  name: Match
+  href: api/SearchAThing.Helpers.Either-2.html#SearchAThing_Helpers_Either_2_Match_
+  commentId: Overload:SearchAThing.Helpers.Either`2.Match
+  isSpec: "True"
+  fullName: SearchAThing.Helpers.Either<L, R>.Match
+  fullName.vb: SearchAThing.Helpers.Either(Of L, R).Match
+  nameWithType: Either<L, R>.Match
+  nameWithType.vb: Either(Of L, R).Match
+- uid: SearchAThing.Helpers.Either`2.Match``1(System.Func{`0,``0},System.Func{`1,``0})
+  name: Match<T>(Func<L, T>, Func<R, T>)
+  href: api/SearchAThing.Helpers.Either-2.html#SearchAThing_Helpers_Either_2_Match__1_System_Func__0___0__System_Func__1___0__
+  commentId: M:SearchAThing.Helpers.Either`2.Match``1(System.Func{`0,``0},System.Func{`1,``0})
+  name.vb: Match(Of T)(Func(Of L, T), Func(Of R, T))
+  fullName: SearchAThing.Helpers.Either<L, R>.Match<T>(System.Func<L, T>, System.Func<R, T>)
+  fullName.vb: SearchAThing.Helpers.Either(Of L, R).Match(Of T)(System.Func(Of L, T), System.Func(Of R, T))
+  nameWithType: Either<L, R>.Match<T>(Func<L, T>, Func<R, T>)
+  nameWithType.vb: Either(Of L, R).Match(Of T)(Func(Of L, T), Func(Of R, T))
+- uid: SearchAThing.Helpers.Either`2.op_Implicit(`0)~SearchAThing.Helpers.Either{`0,`1}
+  name: Implicit(L to Either<L, R>)
+  href: api/SearchAThing.Helpers.Either-2.html#SearchAThing_Helpers_Either_2_op_Implicit__0__SearchAThing_Helpers_Either__0__1_
+  commentId: M:SearchAThing.Helpers.Either`2.op_Implicit(`0)~SearchAThing.Helpers.Either{`0,`1}
+  name.vb: Widening(L to Either(Of L, R))
+  fullName: SearchAThing.Helpers.Either<L, R>.Implicit(L to SearchAThing.Helpers.Either<L, R>)
+  fullName.vb: SearchAThing.Helpers.Either(Of L, R).Widening(L to SearchAThing.Helpers.Either(Of L, R))
+  nameWithType: Either<L, R>.Implicit(L to Either<L, R>)
+  nameWithType.vb: Either(Of L, R).Widening(L to Either(Of L, R))
+- uid: SearchAThing.Helpers.Either`2.op_Implicit(`1)~SearchAThing.Helpers.Either{`0,`1}
+  name: Implicit(R to Either<L, R>)
+  href: api/SearchAThing.Helpers.Either-2.html#SearchAThing_Helpers_Either_2_op_Implicit__1__SearchAThing_Helpers_Either__0__1_
+  commentId: M:SearchAThing.Helpers.Either`2.op_Implicit(`1)~SearchAThing.Helpers.Either{`0,`1}
+  name.vb: Widening(R to Either(Of L, R))
+  fullName: SearchAThing.Helpers.Either<L, R>.Implicit(R to SearchAThing.Helpers.Either<L, R>)
+  fullName.vb: SearchAThing.Helpers.Either(Of L, R).Widening(R to SearchAThing.Helpers.Either(Of L, R))
+  nameWithType: Either<L, R>.Implicit(R to Either<L, R>)
+  nameWithType.vb: Either(Of L, R).Widening(R to Either(Of L, R))
+- uid: SearchAThing.Helpers.Either`2.op_Implicit*
+  name: Implicit
+  href: api/SearchAThing.Helpers.Either-2.html#SearchAThing_Helpers_Either_2_op_Implicit_
+  commentId: Overload:SearchAThing.Helpers.Either`2.op_Implicit
+  isSpec: "True"
+  name.vb: Widening
+  fullName: SearchAThing.Helpers.Either<L, R>.Implicit
+  fullName.vb: SearchAThing.Helpers.Either(Of L, R).Widening
+  nameWithType: Either<L, R>.Implicit
+  nameWithType.vb: Either(Of L, R).Widening
+- uid: SearchAThing.Helpers.Either`2.Right
+  name: Either<L, R>.Right
+  href: api/SearchAThing.Helpers.Either-2.Right.html
+  commentId: T:SearchAThing.Helpers.Either`2.Right
+  name.vb: Either(Of L, R).Right
+  fullName: SearchAThing.Helpers.Either<L, R>.Right
+  fullName.vb: SearchAThing.Helpers.Either(Of L, R).Right
+  nameWithType: Either<L, R>.Right
+  nameWithType.vb: Either(Of L, R).Right
+- uid: SearchAThing.Helpers.Either`2.Right.#ctor(`1)
+  name: Right(R)
+  href: api/SearchAThing.Helpers.Either-2.Right.html#SearchAThing_Helpers_Either_2_Right__ctor__1_
+  commentId: M:SearchAThing.Helpers.Either`2.Right.#ctor(`1)
+  fullName: SearchAThing.Helpers.Either<L, R>.Right.Right(R)
+  fullName.vb: SearchAThing.Helpers.Either(Of L, R).Right.Right(R)
+  nameWithType: Either<L, R>.Right.Right(R)
+  nameWithType.vb: Either(Of L, R).Right.Right(R)
+- uid: SearchAThing.Helpers.Either`2.Right.#ctor*
+  name: Right
+  href: api/SearchAThing.Helpers.Either-2.Right.html#SearchAThing_Helpers_Either_2_Right__ctor_
+  commentId: Overload:SearchAThing.Helpers.Either`2.Right.#ctor
+  isSpec: "True"
+  fullName: SearchAThing.Helpers.Either<L, R>.Right.Right
+  fullName.vb: SearchAThing.Helpers.Either(Of L, R).Right.Right
+  nameWithType: Either<L, R>.Right.Right
+  nameWithType.vb: Either(Of L, R).Right.Right
+- uid: SearchAThing.Helpers.Either`2.Right.Item
+  name: Item
+  href: api/SearchAThing.Helpers.Either-2.Right.html#SearchAThing_Helpers_Either_2_Right_Item
+  commentId: F:SearchAThing.Helpers.Either`2.Right.Item
+  fullName: SearchAThing.Helpers.Either<L, R>.Right.Item
+  fullName.vb: SearchAThing.Helpers.Either(Of L, R).Right.Item
+  nameWithType: Either<L, R>.Right.Item
+  nameWithType.vb: Either(Of L, R).Right.Item
+- uid: SearchAThing.Helpers.Either`2.Right.Map*
+  name: Map
+  href: api/SearchAThing.Helpers.Either-2.Right.html#SearchAThing_Helpers_Either_2_Right_Map_
+  commentId: Overload:SearchAThing.Helpers.Either`2.Right.Map
+  isSpec: "True"
+  fullName: SearchAThing.Helpers.Either<L, R>.Right.Map
+  fullName.vb: SearchAThing.Helpers.Either(Of L, R).Right.Map
+  nameWithType: Either<L, R>.Right.Map
+  nameWithType.vb: Either(Of L, R).Right.Map
+- uid: SearchAThing.Helpers.Either`2.Right.Map``1(System.Func{`0,``0})
+  name: Map<T>(Func<L, T>)
+  href: api/SearchAThing.Helpers.Either-2.Right.html#SearchAThing_Helpers_Either_2_Right_Map__1_System_Func__0___0__
+  commentId: M:SearchAThing.Helpers.Either`2.Right.Map``1(System.Func{`0,``0})
+  name.vb: Map(Of T)(Func(Of L, T))
+  fullName: SearchAThing.Helpers.Either<L, R>.Right.Map<T>(System.Func<L, T>)
+  fullName.vb: SearchAThing.Helpers.Either(Of L, R).Right.Map(Of T)(System.Func(Of L, T))
+  nameWithType: Either<L, R>.Right.Map<T>(Func<L, T>)
+  nameWithType.vb: Either(Of L, R).Right.Map(Of T)(Func(Of L, T))
+- uid: SearchAThing.Helpers.Either`2.Right.Match(System.Action{`0},System.Action{`1})
+  name: Match(Action<L>, Action<R>)
+  href: api/SearchAThing.Helpers.Either-2.Right.html#SearchAThing_Helpers_Either_2_Right_Match_System_Action__0__System_Action__1__
+  commentId: M:SearchAThing.Helpers.Either`2.Right.Match(System.Action{`0},System.Action{`1})
+  name.vb: Match(Action(Of L), Action(Of R))
+  fullName: SearchAThing.Helpers.Either<L, R>.Right.Match(System.Action<L>, System.Action<R>)
+  fullName.vb: SearchAThing.Helpers.Either(Of L, R).Right.Match(System.Action(Of L), System.Action(Of R))
+  nameWithType: Either<L, R>.Right.Match(Action<L>, Action<R>)
+  nameWithType.vb: Either(Of L, R).Right.Match(Action(Of L), Action(Of R))
+- uid: SearchAThing.Helpers.Either`2.Right.Match*
+  name: Match
+  href: api/SearchAThing.Helpers.Either-2.Right.html#SearchAThing_Helpers_Either_2_Right_Match_
+  commentId: Overload:SearchAThing.Helpers.Either`2.Right.Match
+  isSpec: "True"
+  fullName: SearchAThing.Helpers.Either<L, R>.Right.Match
+  fullName.vb: SearchAThing.Helpers.Either(Of L, R).Right.Match
+  nameWithType: Either<L, R>.Right.Match
+  nameWithType.vb: Either(Of L, R).Right.Match
+- uid: SearchAThing.Helpers.Either`2.Right.Match``1(System.Func{`0,``0},System.Func{`1,``0})
+  name: Match<T>(Func<L, T>, Func<R, T>)
+  href: api/SearchAThing.Helpers.Either-2.Right.html#SearchAThing_Helpers_Either_2_Right_Match__1_System_Func__0___0__System_Func__1___0__
+  commentId: M:SearchAThing.Helpers.Either`2.Right.Match``1(System.Func{`0,``0},System.Func{`1,``0})
+  name.vb: Match(Of T)(Func(Of L, T), Func(Of R, T))
+  fullName: SearchAThing.Helpers.Either<L, R>.Right.Match<T>(System.Func<L, T>, System.Func<R, T>)
+  fullName.vb: SearchAThing.Helpers.Either(Of L, R).Right.Match(Of T)(System.Func(Of L, T), System.Func(Of R, T))
+  nameWithType: Either<L, R>.Right.Match<T>(Func<L, T>, Func<R, T>)
+  nameWithType.vb: Either(Of L, R).Right.Match(Of T)(Func(Of L, T), Func(Of R, T))
+- uid: SearchAThing.Mapper
+  name: SearchAThing.Mapper
+  href: api/SearchAThing.Mapper.html
+  commentId: N:SearchAThing.Mapper
+  fullName: SearchAThing.Mapper
+  nameWithType: SearchAThing.Mapper
+- uid: SearchAThing.Mapper.DataReaderMapper`1
+  name: DataReaderMapper<T>
+  href: api/SearchAThing.Mapper.DataReaderMapper-1.html
+  commentId: T:SearchAThing.Mapper.DataReaderMapper`1
+  name.vb: DataReaderMapper(Of T)
+  fullName: SearchAThing.Mapper.DataReaderMapper<T>
+  fullName.vb: SearchAThing.Mapper.DataReaderMapper(Of T)
+  nameWithType: DataReaderMapper<T>
+  nameWithType.vb: DataReaderMapper(Of T)
+- uid: SearchAThing.Mapper.DataReaderMapper`1.#ctor(System.Data.IDataReader)
+  name: DataReaderMapper(IDataReader)
+  href: api/SearchAThing.Mapper.DataReaderMapper-1.html#SearchAThing_Mapper_DataReaderMapper_1__ctor_System_Data_IDataReader_
+  commentId: M:SearchAThing.Mapper.DataReaderMapper`1.#ctor(System.Data.IDataReader)
+  fullName: SearchAThing.Mapper.DataReaderMapper<T>.DataReaderMapper(System.Data.IDataReader)
+  fullName.vb: SearchAThing.Mapper.DataReaderMapper(Of T).DataReaderMapper(System.Data.IDataReader)
+  nameWithType: DataReaderMapper<T>.DataReaderMapper(IDataReader)
+  nameWithType.vb: DataReaderMapper(Of T).DataReaderMapper(IDataReader)
+- uid: SearchAThing.Mapper.DataReaderMapper`1.#ctor*
+  name: DataReaderMapper
+  href: api/SearchAThing.Mapper.DataReaderMapper-1.html#SearchAThing_Mapper_DataReaderMapper_1__ctor_
+  commentId: Overload:SearchAThing.Mapper.DataReaderMapper`1.#ctor
+  isSpec: "True"
+  fullName: SearchAThing.Mapper.DataReaderMapper<T>.DataReaderMapper
+  fullName.vb: SearchAThing.Mapper.DataReaderMapper(Of T).DataReaderMapper
+  nameWithType: DataReaderMapper<T>.DataReaderMapper
+  nameWithType.vb: DataReaderMapper(Of T).DataReaderMapper
+- uid: SearchAThing.Mapper.DataReaderMapper`1.MapFrom(System.Data.IDataRecord)
+  name: MapFrom(IDataRecord)
+  href: api/SearchAThing.Mapper.DataReaderMapper-1.html#SearchAThing_Mapper_DataReaderMapper_1_MapFrom_System_Data_IDataRecord_
+  commentId: M:SearchAThing.Mapper.DataReaderMapper`1.MapFrom(System.Data.IDataRecord)
+  fullName: SearchAThing.Mapper.DataReaderMapper<T>.MapFrom(System.Data.IDataRecord)
+  fullName.vb: SearchAThing.Mapper.DataReaderMapper(Of T).MapFrom(System.Data.IDataRecord)
+  nameWithType: DataReaderMapper<T>.MapFrom(IDataRecord)
+  nameWithType.vb: DataReaderMapper(Of T).MapFrom(IDataRecord)
+- uid: SearchAThing.Mapper.DataReaderMapper`1.MapFrom*
+  name: MapFrom
+  href: api/SearchAThing.Mapper.DataReaderMapper-1.html#SearchAThing_Mapper_DataReaderMapper_1_MapFrom_
+  commentId: Overload:SearchAThing.Mapper.DataReaderMapper`1.MapFrom
+  isSpec: "True"
+  fullName: SearchAThing.Mapper.DataReaderMapper<T>.MapFrom
+  fullName.vb: SearchAThing.Mapper.DataReaderMapper(Of T).MapFrom
+  nameWithType: DataReaderMapper<T>.MapFrom
+  nameWithType.vb: DataReaderMapper(Of T).MapFrom
+- uid: SearchAThing.Mapper.DataReaderMapper`1.MapMismatchException
+  name: DataReaderMapper<T>.MapMismatchException
+  href: api/SearchAThing.Mapper.DataReaderMapper-1.MapMismatchException.html
+  commentId: T:SearchAThing.Mapper.DataReaderMapper`1.MapMismatchException
+  name.vb: DataReaderMapper(Of T).MapMismatchException
+  fullName: SearchAThing.Mapper.DataReaderMapper<T>.MapMismatchException
+  fullName.vb: SearchAThing.Mapper.DataReaderMapper(Of T).MapMismatchException
+  nameWithType: DataReaderMapper<T>.MapMismatchException
+  nameWithType.vb: DataReaderMapper(Of T).MapMismatchException
+- uid: SearchAThing.Mapper.DataReaderMapper`1.MapMismatchException.#ctor(System.String)
+  name: MapMismatchException(String)
+  href: api/SearchAThing.Mapper.DataReaderMapper-1.MapMismatchException.html#SearchAThing_Mapper_DataReaderMapper_1_MapMismatchException__ctor_System_String_
+  commentId: M:SearchAThing.Mapper.DataReaderMapper`1.MapMismatchException.#ctor(System.String)
+  fullName: SearchAThing.Mapper.DataReaderMapper<T>.MapMismatchException.MapMismatchException(System.String)
+  fullName.vb: SearchAThing.Mapper.DataReaderMapper(Of T).MapMismatchException.MapMismatchException(System.String)
+  nameWithType: DataReaderMapper<T>.MapMismatchException.MapMismatchException(String)
+  nameWithType.vb: DataReaderMapper(Of T).MapMismatchException.MapMismatchException(String)
+- uid: SearchAThing.Mapper.DataReaderMapper`1.MapMismatchException.#ctor*
+  name: MapMismatchException
+  href: api/SearchAThing.Mapper.DataReaderMapper-1.MapMismatchException.html#SearchAThing_Mapper_DataReaderMapper_1_MapMismatchException__ctor_
+  commentId: Overload:SearchAThing.Mapper.DataReaderMapper`1.MapMismatchException.#ctor
+  isSpec: "True"
+  fullName: SearchAThing.Mapper.DataReaderMapper<T>.MapMismatchException.MapMismatchException
+  fullName.vb: SearchAThing.Mapper.DataReaderMapper(Of T).MapMismatchException.MapMismatchException
+  nameWithType: DataReaderMapper<T>.MapMismatchException.MapMismatchException
+  nameWithType.vb: DataReaderMapper(Of T).MapMismatchException.MapMismatchException
+- uid: SearchAThing.Mapper.FieldAndPropsExtension
+  name: FieldAndPropsExtension
+  href: api/SearchAThing.Mapper.FieldAndPropsExtension.html
+  commentId: T:SearchAThing.Mapper.FieldAndPropsExtension
+  fullName: SearchAThing.Mapper.FieldAndPropsExtension
+  nameWithType: FieldAndPropsExtension
+- uid: SearchAThing.Mapper.FieldAndPropsExtension.FieldsAndProps(System.Type)
+  name: FieldsAndProps(Type)
+  href: api/SearchAThing.Mapper.FieldAndPropsExtension.html#SearchAThing_Mapper_FieldAndPropsExtension_FieldsAndProps_System_Type_
+  commentId: M:SearchAThing.Mapper.FieldAndPropsExtension.FieldsAndProps(System.Type)
+  fullName: SearchAThing.Mapper.FieldAndPropsExtension.FieldsAndProps(System.Type)
+  nameWithType: FieldAndPropsExtension.FieldsAndProps(Type)
+- uid: SearchAThing.Mapper.FieldAndPropsExtension.FieldsAndProps*
+  name: FieldsAndProps
+  href: api/SearchAThing.Mapper.FieldAndPropsExtension.html#SearchAThing_Mapper_FieldAndPropsExtension_FieldsAndProps_
+  commentId: Overload:SearchAThing.Mapper.FieldAndPropsExtension.FieldsAndProps
+  isSpec: "True"
+  fullName: SearchAThing.Mapper.FieldAndPropsExtension.FieldsAndProps
+  nameWithType: FieldAndPropsExtension.FieldsAndProps

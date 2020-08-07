@@ -4,7 +4,7 @@
       "src": [
         {
           "files": [
-            "netcore-psql-util/**.csproj"
+            "netcore-ef-util/**.csproj"
           ],
 		  "cwd": ".."
         }

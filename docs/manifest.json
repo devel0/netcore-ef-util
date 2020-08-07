@@ -5,23 +5,119 @@
   "files": [
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/SearchAThing.PsqlUtil.Util.yml",
+      "source_relative_path": "api/SearchAThing.EFUtil.Util.yml",
       "output": {
         ".html": {
-          "relative_path": "api/SearchAThing.PsqlUtil.Util.html",
-          "hash": "A9nAQJjZFVJwaY8f1ahV/w=="
+          "relative_path": "api/SearchAThing.EFUtil.Util.html",
+          "hash": "lKPjXZg2ZzH/4JXo9ujA6A=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/SearchAThing.PsqlUtil.yml",
+      "source_relative_path": "api/SearchAThing.EFUtil.yml",
       "output": {
         ".html": {
-          "relative_path": "api/SearchAThing.PsqlUtil.html",
-          "hash": "NTVW0bhwV32xg2bFfU6ihA=="
+          "relative_path": "api/SearchAThing.EFUtil.html",
+          "hash": "8Gvzu9+Y8A+02GgtTFSvbA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SearchAThing.Helpers.Either-2.Left.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SearchAThing.Helpers.Either-2.Left.html",
+          "hash": "EEWuoZqZmAbt8ha3PDf31g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SearchAThing.Helpers.Either-2.Right.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SearchAThing.Helpers.Either-2.Right.html",
+          "hash": "h4wXaub50Ako2eKoROjLvw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SearchAThing.Helpers.Either-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SearchAThing.Helpers.Either-2.html",
+          "hash": "q+QEJiUbWOD4sYIv+eEayw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SearchAThing.Helpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SearchAThing.Helpers.html",
+          "hash": "pcNNfKatkn0bXdNTkLGmXQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SearchAThing.Mapper.DataReaderMapper-1.MapMismatchException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SearchAThing.Mapper.DataReaderMapper-1.MapMismatchException.html",
+          "hash": "P3W0YXU7Q/fOJ8YO3s0hNw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SearchAThing.Mapper.DataReaderMapper-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SearchAThing.Mapper.DataReaderMapper-1.html",
+          "hash": "+VEvPZp10JNpNTXqBLY1kQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SearchAThing.Mapper.FieldAndPropsExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SearchAThing.Mapper.FieldAndPropsExtension.html",
+          "hash": "hJ9KPbrwEc/jFox06svF2Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SearchAThing.Mapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SearchAThing.Mapper.html",
+          "hash": "WT8CQQgQeYdSfjwJh51/3Q=="
         }
       },
       "is_incremental": false,
@@ -36,7 +132,7 @@
           "hash": "GIOgVPnX4OkrM9EMJR6a8Q=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -45,7 +141,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "ZlPwNMeDLzzAStZSG7cg7w=="
+          "hash": "Iyws6DP80q5BJmf677ReSw=="
         }
       },
       "is_incremental": false,
@@ -84,7 +180,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "AIDf/dlRfEYrf3yCHIsZTA=="
+          "hash": "X1sKvhgWn69MBqr7g6wD8Q=="
         }
       },
       "is_incremental": false,
@@ -99,7 +195,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "YElFD0YQvApUuHa8oe6MJg=="
+          "hash": "gCoTMkUTEd6NO8nkNmQ42Q=="
         }
       },
       "is_incremental": false,
@@ -124,8 +220,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 2,
-          "skipped_file_count": 2
+          "total_file_count": 10,
+          "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
           "can_incremental": false,
