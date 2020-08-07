@@ -24,7 +24,7 @@
           "hash": "8Gvzu9+Y8A+02GgtTFSvbA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -132,7 +132,7 @@
           "hash": "aeUz7egeqQpFDltYZTKe/g=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -156,7 +156,7 @@
           "hash": "sZUeNAe5WefmqlOr+ZPSzA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -180,22 +180,19 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "X1sKvhgWn69MBqr7g6wD8Q=="
+          "hash": "zsrMmWU6d5RgRdDjAKmksw=="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Toc",
       "source_relative_path": "toc.yml",
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "IF0craDW9R4k5rWCuQRsAw=="
+          "hash": "KJ+dHo0x25oODpuymDlDBQ=="
         }
       },
       "is_incremental": false,
@@ -215,7 +212,7 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 3,
-          "skipped_file_count": 1
+          "skipped_file_count": 2
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
