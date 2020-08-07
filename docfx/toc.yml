@@ -4,3 +4,5 @@
   href: api/
 - name: Toolkit methods
   href: api/SearchAThing.EfUtil.Util.html
+- name: Sources
+  href: https://github.com/devel0/netcore-ef-util
