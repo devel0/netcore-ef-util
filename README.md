@@ -8,6 +8,10 @@
 
 - [nuget package](https://www.nuget.org/packages/netcore-ef-util/)
 
+## API
+
+- [API](https://devel0.github.io/netcore-ef-util/api/SearchAThing.EfUtil.Util.html)
+
 ## usage
 
 - [ExecSQL](https://github.com/devel0/worked-hours-tracker/blob/cec37c8c07bef5e07c03ca2c9a129094faab1fa0/WorkedHoursTrackerWebapi/Controllers/ApiController.cs#L481)

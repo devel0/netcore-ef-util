@@ -1,0 +1,132 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: SearchAThing.PsqlUtil
+  name: SearchAThing.PsqlUtil
+  href: api/SearchAThing.PsqlUtil.html
+  commentId: N:SearchAThing.PsqlUtil
+  fullName: SearchAThing.PsqlUtil
+  nameWithType: SearchAThing.PsqlUtil
+- uid: SearchAThing.PsqlUtil.Util
+  name: Util
+  href: api/SearchAThing.PsqlUtil.Util.html
+  commentId: T:SearchAThing.PsqlUtil.Util
+  fullName: SearchAThing.PsqlUtil.Util
+  nameWithType: Util
+- uid: SearchAThing.PsqlUtil.Util.EnableFirstLastAggregateFunctions(DbContext)
+  name: EnableFirstLastAggregateFunctions(DbContext)
+  href: api/SearchAThing.PsqlUtil.Util.html#SearchAThing_PsqlUtil_Util_EnableFirstLastAggregateFunctions_DbContext_
+  commentId: M:SearchAThing.PsqlUtil.Util.EnableFirstLastAggregateFunctions(DbContext)
+  fullName: SearchAThing.PsqlUtil.Util.EnableFirstLastAggregateFunctions(DbContext)
+  nameWithType: Util.EnableFirstLastAggregateFunctions(DbContext)
+- uid: SearchAThing.PsqlUtil.Util.EnableFirstLastAggregateFunctions*
+  name: EnableFirstLastAggregateFunctions
+  href: api/SearchAThing.PsqlUtil.Util.html#SearchAThing_PsqlUtil_Util_EnableFirstLastAggregateFunctions_
+  commentId: Overload:SearchAThing.PsqlUtil.Util.EnableFirstLastAggregateFunctions
+  isSpec: "True"
+  fullName: SearchAThing.PsqlUtil.Util.EnableFirstLastAggregateFunctions
+  nameWithType: Util.EnableFirstLastAggregateFunctions
+- uid: SearchAThing.PsqlUtil.Util.IsPsqlNull(System.Object)
+  name: IsPsqlNull(Object)
+  href: api/SearchAThing.PsqlUtil.Util.html#SearchAThing_PsqlUtil_Util_IsPsqlNull_System_Object_
+  commentId: M:SearchAThing.PsqlUtil.Util.IsPsqlNull(System.Object)
+  fullName: SearchAThing.PsqlUtil.Util.IsPsqlNull(System.Object)
+  nameWithType: Util.IsPsqlNull(Object)
+- uid: SearchAThing.PsqlUtil.Util.IsPsqlNull*
+  name: IsPsqlNull
+  href: api/SearchAThing.PsqlUtil.Util.html#SearchAThing_PsqlUtil_Util_IsPsqlNull_
+  commentId: Overload:SearchAThing.PsqlUtil.Util.IsPsqlNull
+  isSpec: "True"
+  fullName: SearchAThing.PsqlUtil.Util.IsPsqlNull
+  nameWithType: Util.IsPsqlNull
+- uid: SearchAThing.PsqlUtil.Util.ToPsql(DateTime)
+  name: ToPsql(DateTime)
+  href: api/SearchAThing.PsqlUtil.Util.html#SearchAThing_PsqlUtil_Util_ToPsql_DateTime_
+  commentId: M:SearchAThing.PsqlUtil.Util.ToPsql(DateTime)
+  fullName: SearchAThing.PsqlUtil.Util.ToPsql(DateTime)
+  nameWithType: Util.ToPsql(DateTime)
+- uid: SearchAThing.PsqlUtil.Util.ToPsql(IEnumerable{System.Double})
+  name: ToPsql(IEnumerable<Double>)
+  href: api/SearchAThing.PsqlUtil.Util.html#SearchAThing_PsqlUtil_Util_ToPsql_IEnumerable_System_Double__
+  commentId: M:SearchAThing.PsqlUtil.Util.ToPsql(IEnumerable{System.Double})
+  name.vb: ToPsql(IEnumerable(Of Double))
+  fullName: SearchAThing.PsqlUtil.Util.ToPsql(IEnumerable<System.Double>)
+  fullName.vb: SearchAThing.PsqlUtil.Util.ToPsql(IEnumerable(Of System.Double))
+  nameWithType: Util.ToPsql(IEnumerable<Double>)
+  nameWithType.vb: Util.ToPsql(IEnumerable(Of Double))
+- uid: SearchAThing.PsqlUtil.Util.ToPsql(IEnumerable{System.Nullable{System.Double}})
+  name: ToPsql(IEnumerable<Nullable<Double>>)
+  href: api/SearchAThing.PsqlUtil.Util.html#SearchAThing_PsqlUtil_Util_ToPsql_IEnumerable_System_Nullable_System_Double___
+  commentId: M:SearchAThing.PsqlUtil.Util.ToPsql(IEnumerable{System.Nullable{System.Double}})
+  name.vb: ToPsql(IEnumerable(Of Nullable(Of Double)))
+  fullName: SearchAThing.PsqlUtil.Util.ToPsql(IEnumerable<System.Nullable<System.Double>>)
+  fullName.vb: SearchAThing.PsqlUtil.Util.ToPsql(IEnumerable(Of System.Nullable(Of System.Double)))
+  nameWithType: Util.ToPsql(IEnumerable<Nullable<Double>>)
+  nameWithType.vb: Util.ToPsql(IEnumerable(Of Nullable(Of Double)))
+- uid: SearchAThing.PsqlUtil.Util.ToPsql(System.Boolean)
+  name: ToPsql(Boolean)
+  href: api/SearchAThing.PsqlUtil.Util.html#SearchAThing_PsqlUtil_Util_ToPsql_System_Boolean_
+  commentId: M:SearchAThing.PsqlUtil.Util.ToPsql(System.Boolean)
+  fullName: SearchAThing.PsqlUtil.Util.ToPsql(System.Boolean)
+  nameWithType: Util.ToPsql(Boolean)
+- uid: SearchAThing.PsqlUtil.Util.ToPsql(System.Double)
+  name: ToPsql(Double)
+  href: api/SearchAThing.PsqlUtil.Util.html#SearchAThing_PsqlUtil_Util_ToPsql_System_Double_
+  commentId: M:SearchAThing.PsqlUtil.Util.ToPsql(System.Double)
+  fullName: SearchAThing.PsqlUtil.Util.ToPsql(System.Double)
+  nameWithType: Util.ToPsql(Double)
+- uid: SearchAThing.PsqlUtil.Util.ToPsql(System.Int32)
+  name: ToPsql(Int32)
+  href: api/SearchAThing.PsqlUtil.Util.html#SearchAThing_PsqlUtil_Util_ToPsql_System_Int32_
+  commentId: M:SearchAThing.PsqlUtil.Util.ToPsql(System.Int32)
+  fullName: SearchAThing.PsqlUtil.Util.ToPsql(System.Int32)
+  nameWithType: Util.ToPsql(Int32)
+- uid: SearchAThing.PsqlUtil.Util.ToPsql(System.Nullable{DateTime})
+  name: ToPsql(Nullable<DateTime>)
+  href: api/SearchAThing.PsqlUtil.Util.html#SearchAThing_PsqlUtil_Util_ToPsql_System_Nullable_DateTime__
+  commentId: M:SearchAThing.PsqlUtil.Util.ToPsql(System.Nullable{DateTime})
+  name.vb: ToPsql(Nullable(Of DateTime))
+  fullName: SearchAThing.PsqlUtil.Util.ToPsql(System.Nullable<DateTime>)
+  fullName.vb: SearchAThing.PsqlUtil.Util.ToPsql(System.Nullable(Of DateTime))
+  nameWithType: Util.ToPsql(Nullable<DateTime>)
+  nameWithType.vb: Util.ToPsql(Nullable(Of DateTime))
+- uid: SearchAThing.PsqlUtil.Util.ToPsql(System.Nullable{System.Boolean})
+  name: ToPsql(Nullable<Boolean>)
+  href: api/SearchAThing.PsqlUtil.Util.html#SearchAThing_PsqlUtil_Util_ToPsql_System_Nullable_System_Boolean__
+  commentId: M:SearchAThing.PsqlUtil.Util.ToPsql(System.Nullable{System.Boolean})
+  name.vb: ToPsql(Nullable(Of Boolean))
+  fullName: SearchAThing.PsqlUtil.Util.ToPsql(System.Nullable<System.Boolean>)
+  fullName.vb: SearchAThing.PsqlUtil.Util.ToPsql(System.Nullable(Of System.Boolean))
+  nameWithType: Util.ToPsql(Nullable<Boolean>)
+  nameWithType.vb: Util.ToPsql(Nullable(Of Boolean))
+- uid: SearchAThing.PsqlUtil.Util.ToPsql(System.Nullable{System.Double})
+  name: ToPsql(Nullable<Double>)
+  href: api/SearchAThing.PsqlUtil.Util.html#SearchAThing_PsqlUtil_Util_ToPsql_System_Nullable_System_Double__
+  commentId: M:SearchAThing.PsqlUtil.Util.ToPsql(System.Nullable{System.Double})
+  name.vb: ToPsql(Nullable(Of Double))
+  fullName: SearchAThing.PsqlUtil.Util.ToPsql(System.Nullable<System.Double>)
+  fullName.vb: SearchAThing.PsqlUtil.Util.ToPsql(System.Nullable(Of System.Double))
+  nameWithType: Util.ToPsql(Nullable<Double>)
+  nameWithType.vb: Util.ToPsql(Nullable(Of Double))
+- uid: SearchAThing.PsqlUtil.Util.ToPsql(System.Nullable{System.Int32})
+  name: ToPsql(Nullable<Int32>)
+  href: api/SearchAThing.PsqlUtil.Util.html#SearchAThing_PsqlUtil_Util_ToPsql_System_Nullable_System_Int32__
+  commentId: M:SearchAThing.PsqlUtil.Util.ToPsql(System.Nullable{System.Int32})
+  name.vb: ToPsql(Nullable(Of Int32))
+  fullName: SearchAThing.PsqlUtil.Util.ToPsql(System.Nullable<System.Int32>)
+  fullName.vb: SearchAThing.PsqlUtil.Util.ToPsql(System.Nullable(Of System.Int32))
+  nameWithType: Util.ToPsql(Nullable<Int32>)
+  nameWithType.vb: Util.ToPsql(Nullable(Of Int32))
+- uid: SearchAThing.PsqlUtil.Util.ToPsql(System.String)
+  name: ToPsql(String)
+  href: api/SearchAThing.PsqlUtil.Util.html#SearchAThing_PsqlUtil_Util_ToPsql_System_String_
+  commentId: M:SearchAThing.PsqlUtil.Util.ToPsql(System.String)
+  fullName: SearchAThing.PsqlUtil.Util.ToPsql(System.String)
+  nameWithType: Util.ToPsql(String)
+- uid: SearchAThing.PsqlUtil.Util.ToPsql*
+  name: ToPsql
+  href: api/SearchAThing.PsqlUtil.Util.html#SearchAThing_PsqlUtil_Util_ToPsql_
+  commentId: Overload:SearchAThing.PsqlUtil.Util.ToPsql
+  isSpec: "True"
+  fullName: SearchAThing.PsqlUtil.Util.ToPsql
+  nameWithType: Util.ToPsql

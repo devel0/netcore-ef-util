@@ -1,0 +1,761 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class Util
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class Util
+   ">
+    <meta name="generator" content="docfx 2.56.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="SearchAThing.PsqlUtil.Util">
+  
+  
+  <h1 id="SearchAThing_PsqlUtil_Util" data-uid="SearchAThing.PsqlUtil.Util" class="text-break">Class Util
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">Util</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="SearchAThing.PsqlUtil.html">SearchAThing.PsqlUtil</a></h6>
+  <h6><strong>Assembly</strong>: netcore-psql-util.dll</h6>
+  <h5 id="SearchAThing_PsqlUtil_Util_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class Util : object</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/devel0/netcore-psql-util/new/master/apiSpec/new?filename=SearchAThing_PsqlUtil_Util_EnableFirstLastAggregateFunctions_DbContext_.md&amp;value=---%0Auid%3A%20SearchAThing.PsqlUtil.Util.EnableFirstLastAggregateFunctions(DbContext)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/devel0/netcore-psql-util/blob/master/file:///Z:/netcore-psql-util/netcore-psql-util/Util.cs/#L207">View Source</a>
+  </span>
+  <a id="SearchAThing_PsqlUtil_Util_EnableFirstLastAggregateFunctions_" data-uid="SearchAThing.PsqlUtil.Util.EnableFirstLastAggregateFunctions*"></a>
+  <h4 id="SearchAThing_PsqlUtil_Util_EnableFirstLastAggregateFunctions_DbContext_" data-uid="SearchAThing.PsqlUtil.Util.EnableFirstLastAggregateFunctions(DbContext)">EnableFirstLastAggregateFunctions(DbContext)</h4>
+  <div class="markdown level1 summary"><p>add first and last aggregate functions
+<a href="https://wiki.postgresql.org/wiki/First/last_(aggregate)">https://wiki.postgresql.org/wiki/First/last_(aggregate)</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void EnableFirstLastAggregateFunctions(this DbContext ctx)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DbContext</span></td>
+        <td><span class="parametername">ctx</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/devel0/netcore-psql-util/new/master/apiSpec/new?filename=SearchAThing_PsqlUtil_Util_IsPsqlNull_System_Object_.md&amp;value=---%0Auid%3A%20SearchAThing.PsqlUtil.Util.IsPsqlNull(System.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/devel0/netcore-psql-util/blob/master/file:///Z:/netcore-psql-util/netcore-psql-util/Util.cs/#L198">View Source</a>
+  </span>
+  <a id="SearchAThing_PsqlUtil_Util_IsPsqlNull_" data-uid="SearchAThing.PsqlUtil.Util.IsPsqlNull*"></a>
+  <h4 id="SearchAThing_PsqlUtil_Util_IsPsqlNull_System_Object_" data-uid="SearchAThing.PsqlUtil.Util.IsPsqlNull(System.Object)">IsPsqlNull(Object)</h4>
+  <div class="markdown level1 summary"><p>states if given object is null or DBNull</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsPsqlNull(this object obj)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">obj</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/devel0/netcore-psql-util/new/master/apiSpec/new?filename=SearchAThing_PsqlUtil_Util_ToPsql_DateTime_.md&amp;value=---%0Auid%3A%20SearchAThing.PsqlUtil.Util.ToPsql(DateTime)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/devel0/netcore-psql-util/blob/master/file:///Z:/netcore-psql-util/netcore-psql-util/Util.cs/#L78">View Source</a>
+  </span>
+  <a id="SearchAThing_PsqlUtil_Util_ToPsql_" data-uid="SearchAThing.PsqlUtil.Util.ToPsql*"></a>
+  <h4 id="SearchAThing_PsqlUtil_Util_ToPsql_DateTime_" data-uid="SearchAThing.PsqlUtil.Util.ToPsql(DateTime)">ToPsql(DateTime)</h4>
+  <div class="markdown level1 summary"><p>retrieve psql representation of datetime
+'YYYY-MM-DD hh:mm:ss.millis'</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string ToPsql(this DateTime dt)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DateTime</span></td>
+        <td><span class="parametername">dt</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/devel0/netcore-psql-util/new/master/apiSpec/new?filename=SearchAThing_PsqlUtil_Util_ToPsql_IEnumerable_System_Double__.md&amp;value=---%0Auid%3A%20SearchAThing.PsqlUtil.Util.ToPsql(IEnumerable%7BSystem.Double%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/devel0/netcore-psql-util/blob/master/file:///Z:/netcore-psql-util/netcore-psql-util/Util.cs/#L126">View Source</a>
+  </span>
+  <a id="SearchAThing_PsqlUtil_Util_ToPsql_" data-uid="SearchAThing.PsqlUtil.Util.ToPsql*"></a>
+  <h4 id="SearchAThing_PsqlUtil_Util_ToPsql_IEnumerable_System_Double__" data-uid="SearchAThing.PsqlUtil.Util.ToPsql(IEnumerable{System.Double})">ToPsql(IEnumerable&lt;Double&gt;)</h4>
+  <div class="markdown level1 summary"><p>retrieve psql representation of double array
+'{val1,val2,...,valn}'
+list enquoted, using invariant culture
+return &quot;null&quot; string if entire array is a null</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string ToPsql(this IEnumerable&lt;double&gt; ary)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">System.Double</span>&gt;</td>
+        <td><span class="parametername">ary</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/devel0/netcore-psql-util/new/master/apiSpec/new?filename=SearchAThing_PsqlUtil_Util_ToPsql_IEnumerable_System_Nullable_System_Double___.md&amp;value=---%0Auid%3A%20SearchAThing.PsqlUtil.Util.ToPsql(IEnumerable%7BSystem.Nullable%7BSystem.Double%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/devel0/netcore-psql-util/blob/master/file:///Z:/netcore-psql-util/netcore-psql-util/Util.cs/#L160">View Source</a>
+  </span>
+  <a id="SearchAThing_PsqlUtil_Util_ToPsql_" data-uid="SearchAThing.PsqlUtil.Util.ToPsql*"></a>
+  <h4 id="SearchAThing_PsqlUtil_Util_ToPsql_IEnumerable_System_Nullable_System_Double___" data-uid="SearchAThing.PsqlUtil.Util.ToPsql(IEnumerable{System.Nullable{System.Double}})">ToPsql(IEnumerable&lt;Nullable&lt;Double&gt;&gt;)</h4>
+  <div class="markdown level1 summary"><p>retrieve psql representation of nullable double array
+'{val1,val2,null,...,valn}'
+list enquoted, using invariant culture and evaluating null to &quot;null&quot; strings</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string ToPsql(this IEnumerable&lt;double?&gt; ary)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">System.Nullable</span>&lt;<span class="xref">System.Double</span>&gt;&gt;</td>
+        <td><span class="parametername">ary</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/devel0/netcore-psql-util/new/master/apiSpec/new?filename=SearchAThing_PsqlUtil_Util_ToPsql_System_Boolean_.md&amp;value=---%0Auid%3A%20SearchAThing.PsqlUtil.Util.ToPsql(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/devel0/netcore-psql-util/blob/master/file:///Z:/netcore-psql-util/netcore-psql-util/Util.cs/#L17">View Source</a>
+  </span>
+  <a id="SearchAThing_PsqlUtil_Util_ToPsql_" data-uid="SearchAThing.PsqlUtil.Util.ToPsql*"></a>
+  <h4 id="SearchAThing_PsqlUtil_Util_ToPsql_System_Boolean_" data-uid="SearchAThing.PsqlUtil.Util.ToPsql(System.Boolean)">ToPsql(Boolean)</h4>
+  <div class="markdown level1 summary"><p>retrieve psql representation of boolean
+&quot;TRUE&quot; or &quot;FALSE&quot; string</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string ToPsql(this bool value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/devel0/netcore-psql-util/new/master/apiSpec/new?filename=SearchAThing_PsqlUtil_Util_ToPsql_System_Double_.md&amp;value=---%0Auid%3A%20SearchAThing.PsqlUtil.Util.ToPsql(System.Double)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/devel0/netcore-psql-util/blob/master/file:///Z:/netcore-psql-util/netcore-psql-util/Util.cs/#L102">View Source</a>
+  </span>
+  <a id="SearchAThing_PsqlUtil_Util_ToPsql_" data-uid="SearchAThing.PsqlUtil.Util.ToPsql*"></a>
+  <h4 id="SearchAThing_PsqlUtil_Util_ToPsql_System_Double_" data-uid="SearchAThing.PsqlUtil.Util.ToPsql(System.Double)">ToPsql(Double)</h4>
+  <div class="markdown level1 summary"><p>retrieve psql representation of double
+(number without quotes)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string ToPsql(this double value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/devel0/netcore-psql-util/new/master/apiSpec/new?filename=SearchAThing_PsqlUtil_Util_ToPsql_System_Int32_.md&amp;value=---%0Auid%3A%20SearchAThing.PsqlUtil.Util.ToPsql(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/devel0/netcore-psql-util/blob/master/file:///Z:/netcore-psql-util/netcore-psql-util/Util.cs/#L43">View Source</a>
+  </span>
+  <a id="SearchAThing_PsqlUtil_Util_ToPsql_" data-uid="SearchAThing.PsqlUtil.Util.ToPsql*"></a>
+  <h4 id="SearchAThing_PsqlUtil_Util_ToPsql_System_Int32_" data-uid="SearchAThing.PsqlUtil.Util.ToPsql(System.Int32)">ToPsql(Int32)</h4>
+  <div class="markdown level1 summary"><p>retrieve psql representation of integer
+(number without quotes)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string ToPsql(this int value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/devel0/netcore-psql-util/new/master/apiSpec/new?filename=SearchAThing_PsqlUtil_Util_ToPsql_System_Nullable_DateTime__.md&amp;value=---%0Auid%3A%20SearchAThing.PsqlUtil.Util.ToPsql(System.Nullable%7BDateTime%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/devel0/netcore-psql-util/blob/master/file:///Z:/netcore-psql-util/netcore-psql-util/Util.cs/#L90">View Source</a>
+  </span>
+  <a id="SearchAThing_PsqlUtil_Util_ToPsql_" data-uid="SearchAThing.PsqlUtil.Util.ToPsql*"></a>
+  <h4 id="SearchAThing_PsqlUtil_Util_ToPsql_System_Nullable_DateTime__" data-uid="SearchAThing.PsqlUtil.Util.ToPsql(System.Nullable{DateTime})">ToPsql(Nullable&lt;DateTime&gt;)</h4>
+  <div class="markdown level1 summary"><p>retrieve psql representation of datetime
+'YYYY-MM-DD hh:mm:ss.millis'
+or &quot;null&quot; string if given argument is null</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string ToPsql(this DateTime? dt)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">DateTime</span>&gt;</td>
+        <td><span class="parametername">dt</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/devel0/netcore-psql-util/new/master/apiSpec/new?filename=SearchAThing_PsqlUtil_Util_ToPsql_System_Nullable_System_Boolean__.md&amp;value=---%0Auid%3A%20SearchAThing.PsqlUtil.Util.ToPsql(System.Nullable%7BSystem.Boolean%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/devel0/netcore-psql-util/blob/master/file:///Z:/netcore-psql-util/netcore-psql-util/Util.cs/#L31">View Source</a>
+  </span>
+  <a id="SearchAThing_PsqlUtil_Util_ToPsql_" data-uid="SearchAThing.PsqlUtil.Util.ToPsql*"></a>
+  <h4 id="SearchAThing_PsqlUtil_Util_ToPsql_System_Nullable_System_Boolean__" data-uid="SearchAThing.PsqlUtil.Util.ToPsql(System.Nullable{System.Boolean})">ToPsql(Nullable&lt;Boolean&gt;)</h4>
+  <div class="markdown level1 summary"><p>retrieve psql representation of boolean
+&quot;TRUE&quot; or &quot;FALSE&quot; string
+or &quot;null&quot; string if given argument is null</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string ToPsql(this bool? value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/devel0/netcore-psql-util/new/master/apiSpec/new?filename=SearchAThing_PsqlUtil_Util_ToPsql_System_Nullable_System_Double__.md&amp;value=---%0Auid%3A%20SearchAThing.PsqlUtil.Util.ToPsql(System.Nullable%7BSystem.Double%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/devel0/netcore-psql-util/blob/master/file:///Z:/netcore-psql-util/netcore-psql-util/Util.cs/#L112">View Source</a>
+  </span>
+  <a id="SearchAThing_PsqlUtil_Util_ToPsql_" data-uid="SearchAThing.PsqlUtil.Util.ToPsql*"></a>
+  <h4 id="SearchAThing_PsqlUtil_Util_ToPsql_System_Nullable_System_Double__" data-uid="SearchAThing.PsqlUtil.Util.ToPsql(System.Nullable{System.Double})">ToPsql(Nullable&lt;Double&gt;)</h4>
+  <div class="markdown level1 summary"><p>retrieve psql representation of double
+(number without quotes)
+of &quot;null&quot; string if given argument is null</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string ToPsql(this double? value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Double</span>&gt;</td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/devel0/netcore-psql-util/new/master/apiSpec/new?filename=SearchAThing_PsqlUtil_Util_ToPsql_System_Nullable_System_Int32__.md&amp;value=---%0Auid%3A%20SearchAThing.PsqlUtil.Util.ToPsql(System.Nullable%7BSystem.Int32%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/devel0/netcore-psql-util/blob/master/file:///Z:/netcore-psql-util/netcore-psql-util/Util.cs/#L53">View Source</a>
+  </span>
+  <a id="SearchAThing_PsqlUtil_Util_ToPsql_" data-uid="SearchAThing.PsqlUtil.Util.ToPsql*"></a>
+  <h4 id="SearchAThing_PsqlUtil_Util_ToPsql_System_Nullable_System_Int32__" data-uid="SearchAThing.PsqlUtil.Util.ToPsql(System.Nullable{System.Int32})">ToPsql(Nullable&lt;Int32&gt;)</h4>
+  <div class="markdown level1 summary"><p>retrieve psql representation of integer
+(number without quotes)
+of &quot;null&quot; string if given argument is null</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string ToPsql(this int? value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/devel0/netcore-psql-util/new/master/apiSpec/new?filename=SearchAThing_PsqlUtil_Util_ToPsql_System_String_.md&amp;value=---%0Auid%3A%20SearchAThing.PsqlUtil.Util.ToPsql(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/devel0/netcore-psql-util/blob/master/file:///Z:/netcore-psql-util/netcore-psql-util/Util.cs/#L66">View Source</a>
+  </span>
+  <a id="SearchAThing_PsqlUtil_Util_ToPsql_" data-uid="SearchAThing.PsqlUtil.Util.ToPsql*"></a>
+  <h4 id="SearchAThing_PsqlUtil_Util_ToPsql_System_String_" data-uid="SearchAThing.PsqlUtil.Util.ToPsql(System.String)">ToPsql(String)</h4>
+  <div class="markdown level1 summary"><p>retrieve psql repsentation of string
+'string' enquoted and escaped
+or &quot;null&quot; stringif given argument is null</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string ToPsql(this string str)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">str</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/devel0/netcore-psql-util/new/master/apiSpec/new?filename=SearchAThing_PsqlUtil_Util.md&amp;value=---%0Auid%3A%20SearchAThing.PsqlUtil.Util%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/devel0/netcore-psql-util/blob/master/file:///Z:/netcore-psql-util/netcore-psql-util/Util.cs/#L10" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
