@@ -3,7 +3,7 @@
         <TargetFramework>netstandard2.1</TargetFramework>
         <GenerateDocumentationFile>true</GenerateDocumentationFile>
         <PackageId>netcore-ef-util</PackageId>
-        <PackageVersion>1.1.1</PackageVersion>
+        <PackageVersion>1.2.0</PackageVersion>
         <Title>net core entity framework util</Title>
         <Description></Description>
         <Authors>Lorenzo Delana</Authors>
