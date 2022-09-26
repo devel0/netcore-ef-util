@@ -1,9 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Data.Common;
 using System.Data.SqlClient;
 using System.Diagnostics;
+using System.Linq;
 using System.Reflection;
+using System.Runtime.CompilerServices;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using SearchAThing.Mapper;
@@ -34,7 +37,17 @@ namespace SearchAThing.EFUtil
             {
                 command.CommandText = query;
                 command.CommandType = CommandType.Text;
-                if (sqlParams != null) command.Parameters.AddRange(sqlParams);
+                if (sqlParams != null)
+                {
+                    foreach (var sqlParam in sqlParams)
+                    {
+                        var param = command.CreateParameter();
+                        param.ParameterName = sqlParam.ParameterName;
+                        param.DbType = sqlParam.DbType;
+                        param.Value = sqlParam.Value;
+                        command.Parameters.Add(param);
+                    }
+                }
                 context.Database.OpenConnection();
 
                 using (var result = command.ExecuteReader())
