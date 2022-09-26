@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Data;
 using System.Linq;
 using System.Reflection;
+using System.Text;
 using SearchAThing.Helpers;
 
 namespace SearchAThing.Mapper
@@ -54,7 +55,9 @@ namespace SearchAThing.Mapper
             {
                 throw new MapMismatchException($"Expected to map every column in the result. " +
                     $"Instead, {columns.Count()} columns and {fieldsAndProps.Count()} fields produced only {joined.Count()} matches. " +
-                    $"Hint: be sure all your columns have _names_, and the names match up.");
+                    $"Hint: be sure all your columns have _names_, and the names match up.\r\n\r\n" +
+                    $"columns: {string.Join(", ", columns.Select(cidx => $"{reader.GetName(cidx)} [{reader.GetFieldType(cidx)}]"))}\r\n\r\n" +
+                    $"jioned : {string.Join(", ", typeof(T).FieldsAndPropNameTypes())}");
             }
             return joined
                  .ToDictionary(x => x.index, x => x.info);
@@ -101,6 +104,25 @@ namespace SearchAThing.Mapper
             );
             return lst;
         }
+
+        public static IEnumerable<string> FieldsAndPropNames(this Type T)
+        {
+            foreach (var x in T.GetFields().Select(field => field.Name))
+                yield return x;
+
+            foreach (var x in T.GetProperties().Select(prop => prop.Name))
+                yield return x;
+        }
+        public static IEnumerable<string> FieldsAndPropNameTypes(this Type T)
+        {
+            foreach (var x in T.GetFields())
+                yield return $"{x.Name}[{x.FieldType}]";
+
+            foreach (var x in T.GetProperties())
+                yield return $"{x.Name}[{x.PropertyType}]";
+        }
+
+
     }
 
 
